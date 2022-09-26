@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Spectral+SC&display=swap');
+
+:root {
+    --light1: #253544;
+    --light2: #F7F7F7;
+    --dark: #050307;
+}
+
+* {
+    margin: 0px !important;
+    padding: 0px !important;
+}
+
+body {
+    background-color: var(--light2);
+}
+
+.navbar {
+    background-color: var(--light1);
+}
+
+.navbar .navbar-brand{
+    padding: 20px 0px 20px 0px !important;
+}
+
+.navbar a {
+    font-family: verdana;
+    font-weight: bold;
+    color: var(--light2);
+}
+
+.navbar a:hover {
+    color: var(--light2);
+}
+/*
+h5{
+    font-family: verdana !important;
+    font-weight: bold !important;
+    margin: 10px 0px 10px 0px !important;
+    font-size: 16px !important;
+}
+
+/*
+.card {
+    background-color: var(--light1);
+}
+
+.card.bx{
+    border: none !important;
+}
+
+.error {
+    color: red;
+}
+
+.whisper {
+    color: gray;
+}
+
+
+.form-check {
+    margin: 5px 0px;
+}
+
+.title {
+    font-weight: 500;
+}
+
+.btn {
+    width: 125px;
+}
+
+button {
+    margin-right: 15px;
+}
+
+#send_answer{
+    margin-top: 15px;
+}
+
+.container-login {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+
+}
+
+.container-btn {
+    display: flex;
+    justify-content: center;
+    margin: 0px 0px 15px 0px;
+}
+
+h5{
+    font-family: verdana;
+    font-weight: bold !important;
+    color: var(--light1);
+}
+
+.container{
+    margin-top: 50px;;
+}
+
+.form-check{
+    margin-bottom: 0px !important;
+}

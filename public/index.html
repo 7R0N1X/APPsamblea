@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CUSTOM CSS-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/global.css">
+    <link rel="stylesheet" href="./css/index-signup.css">
+    <title>Login to account</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-light contentWrap">
+        <a class="navbar-brand mx-auto" href="/">APPsamblea - Secure, fast and easy online voting</a>
+    </nav>
+
+    <div class="container container-login col-md-4 mt-5 mx-auto" id="nickWrap">
+        <div class="header">
+            <h5 class="title">LOGIN TO ACCOUNT</h5>
+        </div>
+        <p id="nickError"></p>
+        <form action="/vote" method="POST" id="nickForm">
+            <div class="form-group">
+                <label class="title pb-1" for="username">User</label>
+                <input type="text" class="form-control" id="nickname" placeholder="Enter user" name="username">
+                <div class="form-text">The key to success is to sleep well.</div>
+            </div>
+            <div class="form-group">
+                <label class="title pt-2 pb-1" for="password">Password</label>
+                <input type="password" class="form-control" id="password" placeholder="Password" name="password">
+            </div>
+            <div class="mb-3 form-check">
+                <input type="checkbox" class="form-check-input" id="Check1">
+                <label class="form-check-label" for="Check1">Remember username</label>
+            </div>
+
+            <div class="container container-btn pt-1 mx-auto">
+                <button type="submit" class="btn btn-primary" form="nickForm" value="login"
+                    style="margin-right: 10px !important;">LOGIN</button>
+
+                <a class="btn btn-secondary" href="signup.html" role="button"
+                    style="margin-right: -10px !important;">SIGN
+                    UP</a>
+            </div>
+        </form>
+    </div>
+    <script src="./js/index.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,57 @@
+#content {
+    margin-top: 50px !important;
+}
+
+.card.bx{
+    border: none !important;
+}
+
+.header {
+    text-align: center;
+    padding: 10px !important;
+}
+
+.alert {
+    background-color: rgb(248, 215, 218) !important;
+    color: rgb(147, 32, 41) !important;
+    width: 400px;
+    border-radius: 10px 10px 0px 0px !important;
+}
+
+.alert p{
+    padding-left: 5px !important;
+}
+
+form .header{
+    background-color: rgb(37, 53, 68) !important;
+    border-radius: 0px 10px 0px 0px !important;
+}
+
+form .container .options{
+    border: 1px solid rgb(37, 53, 68) !important;
+    border-radius: 0px 0px 10px 10px !important;
+    padding: 10px !important;
+}
+
+.form-check-input {
+    margin-top: 4px !important;
+}
+
+.form-check-label {
+    padding-left: 10px !important;
+}
+
+form .container .checkbox{
+    margin: 10px 0px 10px 0px !important;
+}
+
+h5{
+    color: #F7F7F7;
+    font-family: Verdana, Geneva, Tahoma, sans-serif !important;
+    font-size: 18px !important;
+}
+
+#send_answer {
+    height: 30px !important;
+    width: 100px !important;
+}

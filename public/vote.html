@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- CUSTOM CSS-->
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <link rel="stylesheet" href="./css/global.css" />
+  <link rel="stylesheet" href="./css/vote.css" />
+  <title>APPsamblea - Secure, fast and easy online voting</title>
+</head>
+
+<body>
+  <!-- NAVIGATION BAR -->
+  <nav class="navbar navbar-light contentWrap">
+    <a class="navbar-brand mx-auto" href="/">APPsamblea - Secure, fast and easy online voting</a>
+  </nav>
+  <!-- END OF NAVIGATION BAR -->
+
+  <form action="#" method="POST" id="content">
+    <div class="container card bx container container-login col-md-6 mx-auto" id="contentWrap">
+
+      <div class="alert alert-primary" role="alert">
+        <p>*Your vote has power, you have only one attempt.</p>
+      </div>
+
+      <div class="header">
+        <h5>Elect the person you believe is capable of leading our nation</h5>
+      </div>
+
+      <div class="options">
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="answer" value="EduardoMolina" />
+          <label class="form-check-label" for="EduardoMolina">Eduardo Molina</label>
+        </div>
+
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="answer" value="JohnDoe" />
+          <label class="form-check-label" for="JohnDoe">John Doe</label>
+        </div>
+
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="answer" value="DimitriVegas" />
+          <label class="form-check-label" for="DimitriVegas">Dimitri Vegas</label>
+        </div>
+      </div>
+
+      <div class="form-check checkbox">
+        <input type="checkbox" class="form-check-input" id="Check1" />
+        <label class="title form-check-label" for="Check1">Terms and Conditions.</label>
+      </div>
+
+      <button type="submit" class="btn btn-primary" id="send_answer" value="login"
+        style="margin-right: 10px !important">Vote</button>
+    </div>
+  </form>
+
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script src="./js/vote.js"></script>
+</body>
+
+</html>

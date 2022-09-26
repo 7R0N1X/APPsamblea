@@ -1,0 +1,34 @@
+.container{
+    padding: 50px !important;
+}
+
+.card{
+    align-content: center !important;
+    width: 180px !important;
+}
+
+.card-body{
+    text-align: center;
+    padding: 10px !important;
+}
+
+.card-title{
+    margin: 0px !important;
+}
+
+.container-icon{
+    border: 1px solid rebeccapurple !important;
+    border-radius: 5px 0px 0px 5px !important;
+    background-color: rgb(37, 53, 68);
+}
+
+.icon{
+    color: white;
+    height: 75% !important;
+    margin: 10px 5px  !important;
+    border: 1px solid red;
+}
+
+h5{
+    color: #050307;
+}
