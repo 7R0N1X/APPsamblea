@@ -2,7 +2,11 @@
     margin-top: 50px !important;
 }
 
-.card.bx{
+.card {
+    background-color: rgb(247, 247, 247);
+}
+
+.card.bx {
     border: none !important;
 }
 
@@ -18,16 +22,16 @@
     border-radius: 10px 10px 0px 0px !important;
 }
 
-.alert p{
+.alert p {
     padding-left: 5px !important;
 }
 
-form .header{
+form .header {
     background-color: rgb(37, 53, 68) !important;
     border-radius: 0px 10px 0px 0px !important;
 }
 
-form .container .options{
+form .container .options {
     border: 1px solid rgb(37, 53, 68) !important;
     border-radius: 0px 0px 10px 10px !important;
     padding: 10px !important;
@@ -41,11 +45,11 @@ form .container .options{
     padding-left: 10px !important;
 }
 
-form .container .checkbox{
+form .container .checkbox {
     margin: 10px 0px 10px 0px !important;
 }
 
-h5{
+h5 {
     color: #F7F7F7;
     font-family: Verdana, Geneva, Tahoma, sans-serif !important;
     font-size: 18px !important;
